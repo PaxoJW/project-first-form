@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-section left-side">
+        <img src="buddy-photo-omxwwtNse3k-unsplash.jpg" alt="Cherry blossoms picture">
+        <div id="TOP-logo">
+            <img src="odin-lined.png" alt="The Odin project logo">
+            <p>ODIN</p>
+        </div>
+        <p id="photo-credits">Photo by Buddy Photo on unsplash.com</p>
+    </div>
+    <div class="main-section right-side">
+        <div class="small-section intro">
+            <p>This is not a real site! Just an Odin project project</p>
+            <p>You know what <i>you</i> want</p>
+        </div>
+        <form action="example.com\path" method="post" class="small-section">
+            <fieldset>
+                <legend>Let's start!</legend>
+                <div class="row">
+                    <div class="field">
+                        <label for="name">FIRST NAME:</label>
+                        <input type="text" name="first-name" id="name" required>
+                    </div>
+                    <div class="field">
+                        <label for="last-name">LAST NAME:</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="field">
+                        <label for="email">EMAIL:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="field">
+                        <label for="cel-number">PHONE NUMBER:</label>
+                        <input type="tel" name="cel-number" id="cel-number" pattern="^\d+$">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="field">
+                        <label for="password">PASSWORD:</label>
+                        <input type="password" name="password" id="password" minlength="5" required> 
+                     </div>
+                     <div class="field">
+                        <label for="confirm-password">CONFIRM PASSWORD:</label>
+                        <input type="password" name="confirm-password" id="confirm-password" minlength="5" required>  
+                     </div>
+                </div>
+            </fieldset>
+            <button type="submit">Create account</button>
+        </form>
+        
+        <div class="small-section log-in">
+            <p>Already have an account?</p>
+            <a href="">Log in</a>
+        </div>
+        
+    </div>    
+</body>
+</html>

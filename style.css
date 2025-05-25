@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('Norse-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-content: space-around;
+}
+
+.left-side{
+    position:relative;
+    align-items: center;
+
+}
+.right-side {
+    background-color:#f9fafb;
+}
+
+
+#photo-credits {
+    position: absolute;
+    bottom: 10px;
+}
+
+#TOP-logo {
+    position: absolute;
+    top: 30%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0 0 0 / 0.5);
+    padding: 20px 0;
+}
+
+#TOP-logo > img {
+    width:20%;
+}
+
+#TOP-logo > p {
+    font-family: 'Norse-Bold';
+    color: #E5E7EB;
+    font-size: 5rem;
+}
+
+.main-section {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+.small-section {
+    padding: 20px;
+}
+
+.intro {
+    font-size: 3rem;
+}
+
+.intro > p {
+    margin: 40px 0;
+}
+
+
+img {
+    width: 100%;
+    position:relative;
+}
+
+form.small-section {
+    padding:0;
+    margin:50px 0px;
+}
+
+.row{
+    display: flex;
+    gap: 2rem;
+    margin: 10px 0;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 45%;
+}
+
+fieldset {
+    box-shadow: 0 1px 2px #888;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+button {
+    background-color: #596D48;
+    color: #E5E7EB;
+    margin: 20px;
+    padding: 5px 30px;
+    border-radius: 5%;
+    align-self: flex-start;
+}
+
+.log-in {
+    display: flex;
+}
+
+.log-in a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+label{
+    margin-bottom: 0.5rem;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 15%;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
